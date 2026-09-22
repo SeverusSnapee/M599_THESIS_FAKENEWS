@@ -18,7 +18,7 @@ from config import (
     RUN_LIAR_PARTY_PROXY,
     RUN_TRANSFORMER,
 )
-from datasets import (
+from data_loading import (
     load_article_bias,
     load_isot,
     load_liar,
