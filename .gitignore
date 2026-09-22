@@ -10,9 +10,7 @@ data/raw/*
 !data/raw/.gitkeep
 
 # Generated experiment outputs
-results/*
-!results/README.md
-!results/.gitkeep
+# results are tracked for dissertation reproducibility
 
 # Hugging Face / caches
 .cache/
