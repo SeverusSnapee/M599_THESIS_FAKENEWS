@@ -106,6 +106,3 @@ Dataset-specific comparison charts are stored inside each dataset folder.
 - DistilBERT batch size: 8
 - Random state: 42
 
-## Original implementation
-
-`legacy/original_single_file.py` contains the original single-file code before restructuring. It is retained so the refactored code can be compared against the implementation used during the dissertation work.
