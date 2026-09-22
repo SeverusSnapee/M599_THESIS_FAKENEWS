@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Dataset files
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated experiment outputs
+results/*
+!results/README.md
+!results/.gitkeep
+
+# Hugging Face / caches
+.cache/
+huggingface/
+wandb/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
