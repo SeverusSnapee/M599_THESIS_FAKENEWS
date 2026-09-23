@@ -37,11 +37,7 @@ This repository contains the implementation used for a comparative dissertation 
     └── models.py
 ```
 
-## Important reproducibility note
 
-The refactor intentionally preserves the experiment logic and model settings from the original single-file implementation. The main change is code organization and the location of output files.
-
-For the Baly DistilBERT experiment, the configuration still allows a test sample size of 2,000. The predefined Baly test split used in the study contains 1,300 rows, so the program uses the full 1,300-row test set automatically.
 
 ## Installation
 
