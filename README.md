@@ -30,7 +30,7 @@ This repository contains the implementation used for a comparative dissertation 
 │   └── README.md
 └── src/
     ├── config.py
-    ├── datasets.py
+    ├── data_loading.py
     ├── evaluation.py
     ├── io_utils.py
     ├── main.py
