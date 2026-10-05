@@ -14,7 +14,7 @@ RESULTS_DIR = PROJECT_ROOT / "results"
 
 RUN_TRANSFORMER = True
 RUN_ARTICLE_BIAS_DATASET = True
-RUN_LIAR_PARTY_PROXY = False  # Keep False for the main thesis experiment.
+RUN_LIAR_PARTY_PROXY = False  
 
 ISOT_BERT_TRAIN_SAMPLE = 20000
 ISOT_BERT_TEST_SAMPLE = 5000
@@ -24,8 +24,7 @@ LIAR_BERT_TEST_SAMPLE = 1267
 
 BIAS_BERT_TRAIN_SAMPLE = 10000
 BIAS_BERT_TEST_SAMPLE = 2000
-# Note: the current Baly test split contains 1,300 rows, so the code
-# automatically uses the full test set because 1,300 < 2,000.
+
 
 MAX_TRANSFORMER_LENGTH = 128
 TRANSFORMER_MODEL = "distilbert-base-uncased"
